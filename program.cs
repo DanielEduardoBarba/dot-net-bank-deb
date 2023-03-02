@@ -7,7 +7,7 @@
        //CheckingAccount newaccount = new CheckingAccount("Arnold", 59.98);
         BankAccount newaccount = new SavingsAccount("Arnold", 500);
 
-        newaccount.deposit(-100);
+        newaccount.deposit(100);
 
         Console.WriteLine(newaccount.name + "'s balance is " + newaccount.getBalance() );
     }
